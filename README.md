@@ -15,7 +15,7 @@ This is the frontend project for the **Code Ant Frontend Developer Internship**,
    ```bash
    git clone https://github.com/your-username/code-ant-frontend.git
    cd code-ant-frontend
-2. **Install dependencies and run the project
+2. Install dependencies and run the project
   ```bash
    npm install && npm run dev
 
