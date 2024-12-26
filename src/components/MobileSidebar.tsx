@@ -1,11 +1,14 @@
+import { useState } from "react";
+
+import Sidebar from "./Sidebar";
+
 import {
   Sheet,
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { IoMenuOutline } from "react-icons/io5";
-import { useState } from "react";
-import Sidebar from "./Sidebar";
+
 
 const MobileSidebar = () => {
     const [isOpen, setIsOpen] = useState(false);

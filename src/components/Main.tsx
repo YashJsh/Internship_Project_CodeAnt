@@ -1,10 +1,10 @@
+import data from "../../data.json";
+
 import { Button } from "./ui/button";
 import { LuRefreshCw } from "react-icons/lu";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { Separator } from "./ui/separator";
 import { DatabaseIcon, Dot } from "lucide-react";
-
-import data from "../../data.json";
 import { IoAdd } from "react-icons/io5";
 
 const Main = () => {

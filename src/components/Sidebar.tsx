@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import { Navigation } from "./Navigation";
+
 import {
   Select,
   SelectContent,
@@ -5,11 +8,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Navigation } from "./Navigation";
 import { IoCallOutline } from "react-icons/io5";
 import { IoIosLogOut } from "react-icons/io";
-import { Link } from "react-router-dom";
-
 
 const Sidebar = () => {
   return (
